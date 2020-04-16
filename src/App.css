@@ -1,0 +1,45 @@
+.app {
+  padding: 50px;
+  height: 100vh;;
+}
+
+.todo-list {
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 10px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.input {
+  width: 75%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 20px;
+  text-indent: 20px;
+}
+
+.submitBtn {
+  float: right;
+  margin-top: 5px;
+  outline: none;
+  border-radius: 2px;
+  background: #f40;
+  color: #fff;
+  border-width: 0;
+  height: 30px;
+  width: 50px;
+  cursor: pointer;
+}
